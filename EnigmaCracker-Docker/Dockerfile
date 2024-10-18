@@ -11,5 +11,7 @@ RUN pip install --upgrade pip
 # Install any needed packages specified in requirements.txt
 RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
-# Run the script when the container launches
-CMD ["python", "./EC.py"]
+'''bash
+docker-compose up
+'''
+

@@ -102,7 +102,6 @@ python EnigmaCracker.py
 3. **Building the Docker Image**  
    From the root directory of the project in the EnigmaCracker-Docker folder (where the `Dockerfile` is located), run the following command to build the Docker image:
    ```bash
-   docker-compose build
    ```
    This command reads the `Dockerfile` and `docker-compose.yml` to build the EnigmaCracker Docker image.
 
