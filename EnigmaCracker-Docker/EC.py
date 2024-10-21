@@ -80,7 +80,7 @@ def bip44_BTC_seed_to_address(seed):
     seed_bytes = Bip39SeedGenerator(seed).Generate()
 
     # Generate the Bip44 object
-    bip44_mst_ctx = Bip44.FromSeed(seed_bytes, Bip44Coins.BITCOIN)
+    bip44_mst_ctx = Bip44.FromSeedAndPath(seed_bytes, "m/44'/0'/0'/0/0")
 
     # Generate the Bip44 address (account 0, change 0, address 0)
     bip44_acc_ctx = bip44_mst_ctx.Purpose().Coin().Account(0)

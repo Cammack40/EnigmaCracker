@@ -68,7 +68,7 @@ pip install -r requirements.txt
 2. Navigate to the script's directory and insert your API key in EnigmaCracker.env:
 ```bash
 # In EnigmaCracker.env
-etherscan_api_key = your_api_key_here <--- Replace with your actual API key
+<--- Replace with your actual API key
 ```
 ## Execution
 
