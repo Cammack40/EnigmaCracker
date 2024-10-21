@@ -193,7 +193,6 @@ def main():
 
             # ETH
             ETH_address = bip44_ETH_wallet_from_seed(seed)
-            ###!
             etherscan_api_key = os.getenv("ETHERSCAN_API_KEY")
             if not etherscan_api_key:
                 raise ValueError(
