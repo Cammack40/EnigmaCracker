@@ -1,3 +1,4 @@
+FORCE_JAVASCRIPT_ACTIONS_TO_NODE20=true
 name: Pylint
 
 on: [push]
